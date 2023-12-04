@@ -1,0 +1,5 @@
+/vendor/
+/config/extensions.php
+.php-cs-fixer.cache
+
+core

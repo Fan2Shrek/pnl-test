@@ -1,0 +1,6 @@
+{
+    "name": "Pnl test",
+    "composer-name": "pnl/pnl-test",
+    "main-class": "Pnl\\PnlTest\\PnlTest",
+    "version": "dev-main"
+}

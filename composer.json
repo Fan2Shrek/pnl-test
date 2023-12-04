@@ -1,0 +1,21 @@
+{
+    "name": "pnl/pnl-test",
+    "description": "Test module for the PNL application",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Pnl\\PnlTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fan2Shrek",
+            "email": "pierre27.ambroise@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/yaml": "^6.3",
+        "symfony/event-dispatcher": "^6.3"
+    }
+}
