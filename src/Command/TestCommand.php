@@ -50,7 +50,7 @@ class TestCommand extends AbstractCommand
 
         $output->writeln("Succefully test settings Provider !");
 
-        $extensions = require $this->rootPath . '/core/config/extensions.php';
+        $extensions = require $this->rootPath . '/config/extensions.php';
 
         if ($extensions !== [PnlTest::class]) {
             throw new \Exception(sprintf('Extensions is not valid : expected %s, got %s', PnlTest::class, $extensions));
